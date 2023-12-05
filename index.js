@@ -134,7 +134,7 @@ export default function hyperscriptify(domElementOrFragment, h, Fragment, compon
  * Converting from an HTML representation to a hyperscript (JSX) representation
  * requires mapping HTML attribute and slot semantics to JSX props semantics.
  * The details for what mapping is needed depends on the front-end framework and
- * components that are used. This basicPropsifyFactory() function returns a
+ * components that are used. This factory function returns a
  * propsify() implementation that's a reasonable starting point that could be
  * suitable for most apps. Apps for which this implementation isn't suitable can
  * implement their own propsify() function instead of using this factory.
